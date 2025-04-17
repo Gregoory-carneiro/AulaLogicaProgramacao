@@ -20,7 +20,7 @@ programa {
 
     se (media>=7)
     escreva ("A media do aluno-",(nome), "-é:"+ (media) ,"\nParabéns você está aprovado!")
-     senao se (media >= 5) escreva("A média do aluno é: ", media, "\nVocê está em situação de exame, estude mais!")
+     se (media >= 5) escreva("A média do aluno-",(nome), "-é:", media, "\nVocê está em situação de exame, estude mais!")
     senao (escreva("A media do aluno-",(nome), "-é:"+(media),"\nInfelizmente você está reprovado, estude mais!"))
    
   }
