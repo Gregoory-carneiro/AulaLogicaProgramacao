@@ -1,7 +1,9 @@
 programa {
   funcao inicio() {
+
     inteiro idade
     cadeia  nome
+
     escreva ("por favor insira seu nome:")
       leia (nome)
     escreva ("por favor insira sua idade:")
